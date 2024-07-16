@@ -3,7 +3,7 @@
 # @File:demo3.py
 # @Software: PyCharm
 
-
+'''
 # %输出
 age=18
 country="中国"
@@ -45,5 +45,11 @@ str = "IT私塾"
 print("{:*>10}".format(str)) #输出：******IT私塾
 print("{:*<10}".format(str)) #输出：IT私塾******
 print("{:#^10}".format(str)) #输出：###IT私塾###
+
+'''
+
+
+
+
 
 
