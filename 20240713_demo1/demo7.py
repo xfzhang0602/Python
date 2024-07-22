@@ -87,7 +87,7 @@ for i in range(3):
 else: #else语句在循环被中断的情况下不执行
     print("您输入了3次命令")
 
-'''
+
 
 a = ["星期一","星期二","星期三","星期四","星期五","星期六","星期日"]
 for j in a:
@@ -99,7 +99,7 @@ for i in range(4):
         print(j,end="、")
     print(i)
 
-
+'''
 
 
 
