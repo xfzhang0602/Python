@@ -50,19 +50,40 @@ print(a)
 list1 = [10,20,30,2.0,True]
 print(sum(list1)) #输出：63.0
 
+
+
+
+
+#增： 【append】追加
+namelist = ["小张","小王","小李","小赵"]
+print("-------增加前，名单列表的数据-------")
+for name in namelist:
+    print(name,end=",")
+nametemp = input("\n请输入学生姓名：")
+namelist.append(nametemp) #在末尾追加一个元素
+print("-------增加后，名单列表的数据-------")
+for name in namelist:
+    print(name,end=",")
+
+
+#增： 【extend】扩展
+a = [1,2]
+b = [3,4]
+# a.append(b) #将列表当作一个元素，加入到a列表中
+# print(a)
+a.extend(b) #将b列表中的每个元素，逐一追加到a列表中
+print(a)
 '''
 
 
-
-
-
-
-
-
-
-
-
-
+#增： 【+】连接
+list1 = [10,20,30]
+list2 = [40,50]
+res = list1 + list2
+print(res,id(res)) #[10, 20, 30, 40, 50]
+print(list1,id(list1))
+list1.extend(list2)
+print(list1,id(list1))
 
 
 
