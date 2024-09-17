@@ -12,8 +12,8 @@ def preprocess_point_cloud(pcd, voxel_size):
     return(pcd_down, pcd_fpfh)
 
 if __name__ =='__main__':
-    src_path="cloud bin 0.pcd"
-    dst_path="cloud bin 1.pcd"
+    src_path="D:\\code\Python\Python\\20240728_open3d_test\\cloud_bin_0.pcd"
+    dst_path="D:\\code\Python\\Python\\20240728_open3d_test\\cloud_bin_1.pcd"
     voxel_size=0.05 #采样格子大小
     max_iterations=64 #配准的最大迭代次数
     max_tuples=1000 #最多同名点个数
