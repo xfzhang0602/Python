@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 # 0pen3D 0.16版本的 api
 
-pcd =o3d.io.read_point_cloud("D:\\Users\\15055\\Desktop\\scannet\\scans\\scene0000_00\\scene0000_00_vh_clean_2.ply")
+pcd =o3d.io.read_point_cloud("D:\Desktop\scannet\scans\scene0000_00\\scene0000_00_vh_clean_2.ply")
 #计算法线
 pcd.estimate_normals(search_param=o3d.geometry.KDTreeSearchParamHybrid(radius=0.1, max_nn=16), fast_normal_computation=True)
 pcd.paint_uniform_color([0,0,1])
